@@ -1,7 +1,7 @@
 require "hash_deep_reject/version"
 
 module HashDeepReject
-  # In a nest Hash, rejects values that return true from the block:
+  # In a nested Hash, rejects values that return true from the block:
   # 
   #   {a: {b: {c: ""}, d: ""}}.deep_reject! { |k,v| v.blank? }
   #   # => {:a=>{:b=>{}}}
