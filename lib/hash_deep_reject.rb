@@ -1,3 +1,5 @@
+require "hash_deep_reject/version"
+
 module HashDeepReject
   # Takes nested Hashes:
   # And rejects values that return true from the block:
