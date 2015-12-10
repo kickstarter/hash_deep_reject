@@ -3,3 +3,4 @@ require 'hash_deep_reject'
 require 'shoulda'
 
 require 'minitest/autorun'
+require 'minitest/pride'
